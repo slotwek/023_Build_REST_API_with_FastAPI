@@ -1,6 +1,22 @@
-.DS_Store
+# Node files
 node_modules
-.tmp
 npm-debug.log
+
+# Python cache
 __pycache__
+*.py[cod]
+*$py.class
+
+# DataBase files
 *.db
+
+# OS files
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+venv/*
+
+# Temporary files
+.tmp
